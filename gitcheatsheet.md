@@ -2,7 +2,6 @@
 
 ## Setting up a new repository
 
-|------------|------------|
 | Task       | Command    |
 |------------|------------|
 | Initialize a new git repository | `git init` |
@@ -13,7 +12,6 @@
 
 ## Adding and modifying files
 
-|------------|------------|
 | Task       | Command    |
 |------------|------------|
 | Add a new file | `git add <filename>` |
