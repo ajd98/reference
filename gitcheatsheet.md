@@ -21,6 +21,8 @@
 | Remove a file | `git rm <filename>` |
 | Restore a file to its state at the most recent commit | `git checkout -- <filename>` |
 | Remove files that were never added to the git repository | `git clean -fd` |
+| Check what changes have been made but not commited | `git diff <filename>` |
+| Check the history of committed changes | `git log` |
 
 Note that after moving or removing a file, you will need to commit the change using `git commit -m "commit message"`. It is not necessary to run `git add <filename>` on this file before commiting the move/remove operation.
 
