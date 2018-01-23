@@ -20,7 +20,13 @@
 | Move a file | `git mv <current file name> <new file name>` | 
 | Remove a file | `git rm <filename>` |
 | Restore a file to its state at the most recent commit | `git checkout -- <filename>` |
-| Remove files that were never added to the git repository | `git clean -fr` |
+| Remove files that were never added to the git repository | `git clean -fd` |
 
 Note that after moving or removing a file, you will need to commit the change using `git commit -m "commit message"`. It is not necessary to run `git add <filename>` on this file before commiting the move/remove operation.
 
+## Staying up-to-date with a remote repository
+
+| Task       | Command    |
+|------------|------------|
+| Copy any commited changes from your local repository to the remote repository | `git push` |
+| Copy any changes from the remote repository to your local repository | `git pull` |
