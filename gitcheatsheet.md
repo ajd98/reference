@@ -18,7 +18,9 @@
 | Stage a file for committing (must be done after editing a file and before committing the changes) | `git add <filename>` |
 | Commit (or "save") changes | `git commit -m "commit message" ` | 
 | Move a file | `git mv <current file name> <new file name>` | 
-| Remove a file | `get rm <filename>` |
+| Remove a file | `git rm <filename>` |
+| Restore a file to its state at the most recent commit | `git checkout -- <filename>` |
+| Remove files that were never added to the git repository | `git clean -fr` |
 
 Note that after moving or removing a file, you will need to commit the change using `git commit -m "commit message"`. It is not necessary to run `git add <filename>` on this file before commiting the move/remove operation.
 
