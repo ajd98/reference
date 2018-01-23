@@ -7,6 +7,7 @@
 |------------|------------|
 | Initialize a new git repository | `git init` |
 | Set the remote for the repository | `git remote add origin https://github.com/<username>/<repositoryname>.git`  |
+| Push the repository to the remote and set up tracking | `git push -u origin master` |
 | Set the email to be associated with commits (only necessary for your first repository) | `git config user.email <email>` |
 | Set the name to be associated with commits (only necessary for your first repository) | `git config user.name <name>` |
 
