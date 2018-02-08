@@ -41,5 +41,6 @@ Note that after moving or removing a file, you will need to commit the change us
 | Switch to a branch that already exists | `git checkout <branchname>` |
 | Apply changes in one branch to another branch | `git checkout <basebranch>`, then `git merge <featurebranch>` |
 | Push a new branch to remote and set upstream tracking | `git push -u origin <branchname>` |
+| Display the current branch | `git status` |
 
 Notes: Often, git repositories have a `master` branch, which contains a "main" version of the code; this code is also often working (rather than broken due to unfinished changes).  Changes are implemented in feature branches, the purpose of which is to compartmentalize development of a particular feature or bug fix.  Feature branches are merged into `master` as they are completed.  GitHub has a "pull request" feature that may be used to request merges of one branch into another branch--this feature will alert other developers associated with the repository that a merge is being requested, and those developers can then review the changes, comment on the changes, and ultimately approve the changes.
